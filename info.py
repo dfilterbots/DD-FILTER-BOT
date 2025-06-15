@@ -37,11 +37,11 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set Tru
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # This Is Force Subscribe Channel, also known as Auth Channel 
-auth_channel = environ.get('AUTH_CHANNEL', '') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002476966921') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request Any File Name With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL', '-1002476966921')
+reqst_channel = environ.get('REQST_CHANNEL', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Channel Is For Index Request 
@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AutoMalayalammovies')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+16DkJnIZMsIzZDk1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AutoMalayalammovies') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+3MxWcdHBE-00YjU1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+fNyeQ2ZO2Sc0YTc1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+3MxWcdHBE-00YjU1') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 't.me/Kurivimo')
 
 # True Or False
