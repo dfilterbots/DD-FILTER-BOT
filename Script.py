@@ -245,11 +245,10 @@ Loki S01 or Loki S01E04 or Lucifer S03E24</pre>
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗ 
-➲ <a href=https://t.me/+3MxWcdHBE-00YjU1> @Malayalam_Movies</a>
-➲ <a href=https://t.me/+16DkJnIZMsIzZDk1> 
-@Movie_Updates </a>
-╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝</b>"""
+╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗ 
+➲ <a href=https://t.me/+3MxWcdHBE-00YjU1> @Malayalam_Movies </a>
+➲ <a href=https://t.me/+16DkJnIZMsIzZDk1> @OTT_Updates </a>
+╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
