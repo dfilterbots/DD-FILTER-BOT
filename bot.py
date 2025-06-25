@@ -97,3 +97,9 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
 
+import os
+import importlib
+
+for file in os.listdir("plugins"):
+    if file.endswith(".py"):
+        importlib.import_module(f"plugins.{file[:-3]}")
