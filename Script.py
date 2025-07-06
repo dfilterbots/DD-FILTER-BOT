@@ -192,18 +192,7 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """<b>● താങ്കൾ ആവശ്യപ്പെട്ട {} ഫയൽ എനിക്ക് കണ്ടെത്താനായില്ല🥲
-● നിങ്ങൾ ചോദിച്ച സിനിമ OTT റിലീസ് ആയിട്ടുണ്ടോ..?
-● താഴെ പറഞ്ഞിരിക്കുന്ന കാര്യങ്ങളിൽ ശ്രദ്ധിക്കുക...
-● കറക്ട് സ്പെല്ലിങ്ങിൽ ചോദിക്കുക.
-● ഒ.ടി.ടി പ്ലാറ്റ്ഫോമുകളിൽ റിലീസ് ആകാത്ത സിനിമകൾ ചോദിക്കരുത്.
-● കഴിവതും [സിനിമയുടെ പേര്,വ൪ഷം,ഭാഷ] ഈ രീതിയിൽ ചോദിക്കുക..
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-<pre>Uncharted or Uncharted 2022 or Uncharted Eng
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-Loki S01 or Loki S01E04 or Lucifer S03E24</pre>
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+    I_CUDNT = """<b>Movie not Found Dude 😔 Do search in google and copy that name and send if that movies OTT released</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
@@ -253,13 +242,13 @@ IMDb Data:
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌏 Languages : <code>{languages}</code>
+⏰ RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
 
+𝗢𝗧𝗧 𝗦𝗧𝗥𝗘𝗘𝗠𝗜𝗡𝗚 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 👉
+https://t.me/+mhBXTSeCRsM1ZjY1
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
