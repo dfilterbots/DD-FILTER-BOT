@@ -1,22 +1,23 @@
-# Use a modern, stable Python image (Debian bookworm base)
-FROM python:3.10-slim-bookworm
+# Use a lightweight Python image
+FROM python:3.10-slim
 
-# Set working directory inside the container
+# Set working directory
 WORKDIR /app
 
-# Install system dependencies (if needed)
-RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y git && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy project files into the container
-COPY requirements.txt .
+# Copy all project files into the container
+COPY . .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of your project files
-COPY . .
+# Optional: Unbuffered output for better logging in Render
+ENV PYTHONUNBUFFERED=1
 
-# Command to run your bot (adjust this as per your main script)
-CMD ["python", "Script.py"]
+# Start the bot
+CMD ["python3", "-u", "bot.py"]
