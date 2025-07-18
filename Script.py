@@ -1,9 +1,15 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b>ഹലോ{}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>👋 ഞാൻ ഏറ്റവും പുതിയതും ശക്തവുമായ ഓട്ടോ ഫിൽട്ടർ ബോട്ടാണ്, നിങ്ങൾക്ക് നിങ്ങളുടെ ഗ്രൂപ്പിൽ എന്നെ ഉപയോഗിക്കാം....</b>"""
+    START_TXT = """<b>Hello 👋 𝐌𝐚𝐧𝐈𝐚𝐜𝐗℡ »⃟🇮🇳, I am your Movie and Series Search Bot
+
+You can now search our movie group for available content
+
+<blockqoute>Simply enter the movie or series name to begin your search
+Examble :
+Uncharted or Uncharted 2022 or Uncharted Eng
+Loki S01 or Loki S01E04 or Lucifer S03E24</blockqoute>
+
+Admin : @FileSearchAdmin_Bot</b>"""
 
     CLONE_START_TXT = """<b>ഹലോ{}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>👋 ഞാൻ ഏറ്റവും പുതിയതും ശക്തവുമായ ഓട്ടോ ഫിൽട്ടർ ബോട്ടാണ്, നിങ്ങൾക്ക് നിങ്ങളുടെ ഗ്രൂപ്പിൽ എന്നെ ഉപയോഗിക്കാം....</b>"""
     
@@ -97,10 +103,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code>
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
 
-    # Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
+    
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
  <b>✯ Maintained by : <a href={}>Owner</a></b>
@@ -146,11 +149,15 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    SEC_STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
+    SEC_STATUS_TXT = """<b><blockqoute> Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code></blockqoute>
+
+ <blockqoute>Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code></blockqoute>
+
+ <blockqoute>Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code></blockqoute>
+
+ <blockqoute>Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></blockqoute>
+
+ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
     STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
 
